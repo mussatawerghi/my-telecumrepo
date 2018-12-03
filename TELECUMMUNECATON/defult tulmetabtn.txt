@@ -1,0 +1,43 @@
+ almarjOpticalFiberHW2500 = localStorage.getItem("AlmarjOpticalFiberHW2500");  
+ 
+  if ( almarjOpticalFiberHW2500  == "false") {
+    document.getElementById("almarjcity").style.backgroundColor = "red"; 
+//	document.getElementById("OpticalFiber").style.backgroundColor = "red";
+	document.getElementById("h1").style.backgroundColor = "red";
+    document.getElementById("checkone1").checked = false;
+    }
+  almarjOpticalFiberHW7500 = localStorage.getItem("AlmarjOpticalFiberHW7500");
+  if (almarjOpticalFiberHW7500 == "false") {
+     document.getElementById("almarjcity").style.backgroundColor = "red"; 
+//	 document.getElementById("OpticalFiber").style.backgroundColor = "red";
+	document.getElementById("h2").style.backgroundColor = "red";
+    document.getElementById("checkone2").checked = false;;
+    }
+  almarjOpticalFiberHW8800= localStorage.getItem("AlmarjOpticalFiberHW8800");
+  if (almarjOpticalFiberHW8800 == "false") {
+   document.getElementById("almarjcity").style.backgroundColor = "red"; 
+//	document.getElementById("OpticalFiber").style.backgroundColor = "red";
+	document.getElementById("h3").style.backgroundColor = "red";
+    document.getElementById("checkone3").checked = false;;
+  }
+ almarjOpticalFiberAlcatel= localStorage.getItem("AlmarjOpticalFiberAlcatel");
+  if (almarjOpticalFiberAlcatel == "false") {
+    document.getElementById("almarjcity").style.backgroundColor = "red"; 
+//	document.getElementById("OpticalFiber").style.backgroundColor = "red";
+	document.getElementById("h4").style.backgroundColor = "red";
+    document.getElementById("checkone4").checked = false;;
+ }
+ almarjOpticalFiberKeymile= localStorage.getItem("AlmarjOpticalFiberKeymile");
+   if (almarjOpticalFiberKeymile == "false") {
+    document.getElementById("almarjcity").style.backgroundColor = "red"; 
+//	document.getElementById("OpticalFiber").style.backgroundColor = "red";
+	document.getElementById("h5").style.backgroundColor = "red";
+    document.getElementById("checkone5").checked = false;;
+  }
+ almarjOpticalFiberPCM_1511= localStorage.getItem("AlmarjOpticalFiberPCM_1511");
+  if (almarjOpticalFiberPCM_1511 == "false") {
+    document.getElementById("almarjcity").style.backgroundColor = "red"; 
+//	document.getElementById("OpticalFiber").style.backgroundColor = "red";
+	document.getElementById("h6").style.backgroundColor = "red";
+    document.getElementById("checkone6").checked = false;;
+  }

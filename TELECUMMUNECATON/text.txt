@@ -1,0 +1,15 @@
+https://plnkr.co/edit/83yqvhLpsRhlVqQv20oP?p=preview
+https://ww2days.com/images/NorthAfrica_WesternDesertBattle_Area_1941.png
+
+//////////
+
+$(document).ready(function(){
+   $("#albeda").click(function(){
+      $(this).css({"background-color": "yellow", "font-size": "200%"});
+		
+    });
+});
+
+/////////
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+////////
